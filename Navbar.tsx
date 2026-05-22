@@ -59,17 +59,17 @@ export default function Hero() {
 
           <div className="mt-14 flex items-center gap-8 text-sm">
             <div>
-              <div className="font-display text-3xl font-bold text-white">60+</div>
+              <div className="font-display text-3xl font-bold text-white">6000000+</div>
               <div className="text-white/50">проектов</div>
             </div>
             <div className="w-px h-10 bg-white/10" />
             <div>
-              <div className="font-display text-3xl font-bold text-white">6</div>
+              <div className="font-display text-3xl font-bold text-white">600000</div>
               <div className="text-white/50">лет опыта</div>
             </div>
             <div className="w-px h-10 bg-white/10" />
             <div>
-              <div className="font-display text-3xl font-bold text-white">25+</div>
+              <div className="font-display text-3xl font-bold text-white">250000+</div>
               <div className="text-white/50">клиентов</div>
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Hero() {
               <div className="space-y-3">
                 <div className="flex items-center justify-between text-sm">
                   <span className="text-white/50">Локация</span>
-                  <span className="text-white">Москва, RU</span>
+                  <span className="text-white">ДУШАНБЕ, КU</span>
                 </div>
                 <div className="flex items-center justify-between text-sm">
                   <span className="text-white/50">Стек</span>

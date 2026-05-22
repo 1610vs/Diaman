@@ -26,7 +26,7 @@ export default function Contact() {
             Давай <span className="text-gradient">обсудим</span> ваш проект
           </h2>
           <p className="mt-6 text-white/60 text-lg">
-            Опишите идею в двух словах — отвечу в течение 24 часов и предложу следующий шаг.
+            Опишите идею в двух словах —и я не отвечу в течение 24 часов и не предложу следующий шаг.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export default function Contact() {
                   type="text"
                   className="w-full bg-ink-900 border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-white/30 focus:border-[#c8ff00] focus:outline-none transition-colors"
                   style={{ backgroundColor: "#11111a" }}
-                  placeholder="Иван Петров"
+                  placeholder="DIAMAN"
                 />
               </label>
               <label className="block">
@@ -64,10 +64,10 @@ export default function Contact() {
                 className="w-full bg-ink-900 border border-white/10 rounded-xl px-4 py-3 text-white focus:border-[#c8ff00] focus:outline-none transition-colors"
                 style={{ backgroundColor: "#11111a" }}
               >
-                <option>До 200 000 ₽</option>
-                <option>200 000 — 500 000 ₽</option>
-                <option>500 000 — 1 000 000 ₽</option>
-                <option>Больше 1 000 000 ₽</option>
+                <option>До 200 000 Баксов</option>
+                <option>200 000 — 500 000 Тугриков</option>
+                <option>500 000 — 1 000 000 ХЕРОВ</option>
+                <option>Больше 1 000 000 БУМАЖЕК</option>
               </select>
             </label>
 
@@ -92,10 +92,10 @@ export default function Contact() {
 
           <aside className="lg:col-span-2 space-y-4">
             {[
-              { label: "Email", value: "hello@alexivanov.dev", href: "mailto:hello@alexivanov.dev", icon: "✉" },
-              { label: "Telegram", value: "@alex_ivanov", href: "#", icon: "✈" },
-              { label: "GitHub", value: "github.com/alexivanov", href: "#", icon: "⌥" },
-              { label: "LinkedIn", value: "in/alexivanov", href: "#", icon: "in" },
+              { label: "Email", value: "hello@DIAMAN.dev", href: "mailto:hello@DIAMAN.dev", icon: "✉" },
+              { label: "Telegram", value: "@DIAMAN", href: "#", icon: "✈" },
+              { label: "GitHub", value: "github.com/DIAMAN", href: "#", icon: "⌥" },
+              { label: "LinkedIn", value: "in/Diaman", href: "#", icon: "in" },
             ].map((c) => (
               <a
                 key={c.label}
